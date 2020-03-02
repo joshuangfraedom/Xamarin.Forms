@@ -195,6 +195,7 @@ namespace Xamarin.Forms.Controls.GalleryPages.CollectionViewGalleries.CarouselVi
 			var btnRemove = new Button
 			{
 				Text = "Remove First",
+				AutomationId = "btnRemoveFirst",
 				BackgroundColor = Color.LightGray,
 				Padding = new Thickness(10),
 				Command = new Command(() =>
@@ -207,6 +208,7 @@ namespace Xamarin.Forms.Controls.GalleryPages.CollectionViewGalleries.CarouselVi
 			_btnPrev = new Button
 			{
 				Text = "Prev",
+				AutomationId = "btnPrev",
 				BackgroundColor = Color.LightGray,
 				Padding = new Thickness(10),
 				Command = new Command(() =>
@@ -221,6 +223,7 @@ namespace Xamarin.Forms.Controls.GalleryPages.CollectionViewGalleries.CarouselVi
 			_btnNext = new Button
 			{
 				Text = "Next",
+				AutomationId = "btnNext",
 				BackgroundColor = Color.LightGray,
 				Padding = new Thickness(10),
 				Command = new Command(() =>
@@ -236,6 +239,7 @@ namespace Xamarin.Forms.Controls.GalleryPages.CollectionViewGalleries.CarouselVi
 			var btnRemoveLast = new Button
 			{
 				Text = "Remove Last",
+				AutomationId = "btnRemoveLast",
 				BackgroundColor = Color.LightGray,
 				Padding = new Thickness(10),
 				Command = new Command(() =>
